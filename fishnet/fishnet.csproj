@@ -79,6 +79,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\getPointByDecimal\getPointByDecimal.csproj">
+      <Project>{a10d4685-ba72-410b-8603-8a0decbacf52}</Project>
+      <Name>getPointByDecimal</Name>
+    </ProjectReference>
     <ProjectReference Include="..\outPutAll\outPutAll.csproj">
       <Project>{681a3647-c458-4a14-b3b7-02450add7594}</Project>
       <Name>outPutAll</Name>

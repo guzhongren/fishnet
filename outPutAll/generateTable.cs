@@ -8,8 +8,8 @@ namespace outPutAll
 {
     public static  class generateTable
     {
-        private static int a = 0;
-        private static int b = 0;
+        private static int a = 0;//行号
+        private static int b = 0;//列号
         private static double x = 0;//循环次数
         //构造数据
         //用到边界点
@@ -147,8 +147,8 @@ namespace outPutAll
                         {
                             colum++;
                             framString += row.ToString() + "," + colum.ToString() + "," + b.ToString("0.00") + "," + a.ToString("0.00") + "\r\n";
-                        }
-                        colum = 0;
+                     }
+                     colum = 0;
                     }
                     row = 0;
                     //输出

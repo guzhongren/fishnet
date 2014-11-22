@@ -41,5 +41,11 @@ namespace fishnet
             outPutAll.generateTable.getSmallFramCenterPoint();
             MessageBox.Show("输出小方格中心点完毕！");
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            getPointByDecimal.GetPoints.GetSmallFramPoint(15,70,40,67);
+            MessageBox.Show("输出完成");
+        }
     }
 }
